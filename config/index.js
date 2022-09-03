@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wxe675beede71bbe93",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "00b5d4cda0bd5a8b4a4face58dc5ac40",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -16,9 +16,9 @@ export const config = {
    *    // 想要发送的人的名字
    *    name: "老婆0",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+   *    id: "ojzQI6ihf9jiEtTZbXL69zF2vcxs",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "-QjLFqgQo_HS82CmbGpKxGQIBHJ24E7AQgkwP7XP2as",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   }, 
@@ -27,30 +27,30 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "小朱",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxO123O6Vsk2Yv0Kuf-ywIZ3VRMpuXhk",
+      id: "ojzQI6ihf9jiEtTZbXL69zF2vcxs",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "zjVglIuC2Xo4CsraXWEio1iP7sZJ37IQEES9lD3sgc4yOU",
+      useTemplateId: "-QjLFqgQo_HS82CmbGpKxGQIBHJ24E7AQgkwP7XP2as",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆1", 
-      id: "ohxOO6VskYv20Kuf-ywIZVR3MpuXhk",
-      useTemplateId: "Wue80GrtY1nAia24tam-FDxZF9WNx39pwcBc0LMpANnu8",
+      name: "小朱", 
+      id: "ojzQI6ihf9jiEtTZbXL69zF2vcxs",
+      useTemplateId: "-QjLFqgQo_HS82CmbGpKxGQIBHJ24E7AQgkwP7XP2as",
       openUrl: "https://baidu.com"
     }, 
     {
-      name: "老婆2",
-      id: "ohxOO6VskYv30Kuf-ywIZV3RMpuXhk",
-      useTemplateId: "zjVglIuCXo4CsraXW3Eio1iP7sZJ7IQEES9lDsgc4yOU",
+      name: "小朱",
+      id: "ojzQI6ihf9jiEtTZbXL69zF2vcxs",
+      useTemplateId: "-QjLFqgQo_HS82CmbGpKxGQIBHJ24E7AQgkwP7XP2as",
       openUrl: "https://weibo.com"
     }, 
     {
-      name: "老婆3", 
+      name: "小朱", 
       id: "ohxOO63VskYv0Kuf-ywIZV3RMpuXhk", 
-      useTemplateId: "Wue80GrtY1nA3ia4tam-FDxZF9WNx9pw3cBc0LMpANnu8",
+      useTemplateId: "-QjLFqgQo_HS82CmbGpKxGQIBHJ24E7AQgkwP7XP2as",
       openUrl: "https://wangxinleo.cn"
     }, 
   ],
@@ -68,7 +68,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO36VskY3v0Kuf-ywIZVR3MpuXhk",
+      id: "ojzQI6j48lfENcTIxQXaXzIli2hM",
     }, 
   ],
     
@@ -79,9 +79,9 @@ export const config = {
   /** 天气相关 */
 
   // 所在省份
-  PROVINCE: "广东",
+  PROVINCE: "河南",
   // 所在城市
-  CITY: "惠州",
+  CITY: "郑州",
 
   /** 重要节日相关 */
 
@@ -113,7 +113,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
+    {"keyword": "love_day", date: "2022-05-01"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
