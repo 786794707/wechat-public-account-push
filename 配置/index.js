@@ -30,8 +30,9 @@ export const config = {
       name: "小朱",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ojzQI6ihf9jiEtTZbXL69zF2vcxs",
-      // 你想对他发送的模板消息的模板ID
+      // 你想对他发送的模板消息的模板ID   	
       useTemplateId: "-QjLFqgQo_HS82CmbGpKxGQIBHJ24E7AQgkwP7XP2as",
+      useTemplateId: "QxlTMvAK-jAUjZJdaC6WCl2jNKXlu519yEqKQ_6nQ6o",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -42,14 +43,14 @@ export const config = {
       openUrl: "https://baidu.com"
     }, 
     {
-      name: "小朱",
-      id: "ojzQI6ihf9jiEtTZbXL69zF2vcxs",
+      name: "小何",
+      id: "ojzQI6j48lfENcTIxQXaXzIli2hM",
       useTemplateId: "-QjLFqgQo_HS82CmbGpKxGQIBHJ24E7AQgkwP7XP2as",
       openUrl: "https://weibo.com"
     }, 
     {
       name: "小朱", 
-      id: "ohxOO63VskYv0Kuf-ywIZV3RMpuXhk", 
+      id: "", 
       useTemplateId: "-QjLFqgQo_HS82CmbGpKxGQIBHJ24E7AQgkwP7XP2as",
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -92,10 +93,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "小朱", "year": "1998", "date": "12-05"},
+    {"type": "节日", "name": "无", "year": "2020", "date": "09-03"},
+    {"type": "生日", "name": "帅哥", "year": "1998", "date": "04-25"},
+    {"type": "节日", "name": "无", "year": "2021", "date": "09-01"},
   ],
 
   /**
